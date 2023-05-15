@@ -37,7 +37,7 @@
     </fieldset>
 
     <fieldset>
-        <p>Which Single Tech field most interest you at the moment?</p>
+        <h3>Which Single Tech field most interest you at the moment?</h3>
         <select name="Tech fields ID" id="tech-fields" required>
             <option value="" disabled selected hidden>select an option</option>
             <option value="CS">Cyber Security</option>
@@ -49,7 +49,7 @@
 
         </select>
 
-        <p>Where have you lived the most of your life?</p>
+        <h3>Where have you lived the most of your life?</h3>
         <select name="Country" id="Nationality" required>
                 <option>select country e.g Biafra</option>
                 <option value="AF">Afghanistan</option>
@@ -309,9 +309,14 @@
         </select>
 
         <section class = audience-gender>
+            <h3>Choose your gender</h3>
 
                 <label for="male"> 
                     <input type ="radio" value="Male" id="male" name="Gender"> Masculine 
+                </label>
+
+                <label for="female"> 
+                    <input type ="radio" value="Female" id="female" name="Gender"> Feminine 
                 </label>
 
                 <label for="transgender"> 
@@ -319,12 +324,14 @@
                 </label>
 
                 <label for="choose-not-to-say"> 
-                    <input type ="radio" value="Not willing to say" id="choose-not-to-say" name="Gender"> Choose not to say
+                    <input type ="radio" value="Not willing to say" id="choose-not-to-say" name="Gender" checked> Choose not to say
                 </label>
 
         </section>
 
         <section class="audience-loved-tech-fields">
+
+            <h3>Which Tech fields do you love (Check as many as you wish)</h3>
 
             <label for="none">
                 <input type ="checkbox" value="No tract" id="none" name="Preferred Tech Tract"> 
@@ -363,7 +370,7 @@
     <fieldset>
 
         <section class="lower-end">
-            <textarea  id="AOB" placeholder="Do you have any other thing to tell us? "  width="400px" height="100px" ></textarea>
+            <textarea  id="AOB" placeholder="Do you have any other thing to tell us? "  width="650px" height="100px" ></textarea>
 
            <input type ="submit" id="submit-btn" value="Submit Form" >
         </section>
