@@ -12,31 +12,32 @@
 <body>
     <main>
      <header>
-        <h2>Tech Specialization Survey</h2>
-        <p>Take this survey to find out which aspect of tech is most suitable for you</p>
+        <h1>Tech Specialization Survey</h1>
+        <p>Take this survey to find out which aspect of tech is most suitable for you!</p>
      </header>
 
 <form id="Tech-specialization-Form" action="https://formspree.io/f/mvoyvjlo" method="post">
 
-    <fieldset class = "Personal details">
+    <fieldset class = "Personal-details">
         <label for="name" value = "Their Name" > 
-            <p>Full Name</p> 
-            <input type="text" placeholder="type in your full name e.g Zig Lewis" required id="name" name="Name-ID">
+            <h2>Full Name:</h2> 
+            <input type="text" placeholder="e.g: Zig Lewis" required id="name" name="Name-ID">
         </label>
         
         <label for="DOB" value = "Their age">
-            <p>Date Of Birth </p>
-            <input type ="date" placeholder="Please tell us your true date of birth" id="DOB" name="DOB-ID">
+            <h2>Date Of Birth:</h2>
+            <input type ="date"  id="DOB" name="DOB-ID">
         </label>
 
         <label for="email" value ="Their email">
-            <p>Email address</p>
-            <input type ="email" placeholder="input your email" id="email" required name="Email ID" >
+            <h2>Email address:</h2>
+            <input type ="email" placeholder="e.g: Ziglewis@gmail.com" id="email" required name="Email ID" >
         </label>
 
     </fieldset>
 
     <fieldset>
+        <p>Which Single Tech field most interest you at the moment?</p>
         <select name="Tech fields ID" id="tech-fields" required>
             <option value="" disabled selected hidden>select an option</option>
             <option value="CS">Cyber Security</option>
@@ -48,6 +49,7 @@
 
         </select>
 
+        <p>Where have you lived the most of your life?</p>
         <select name="Country" id="Nationality" required>
                 <option>select country e.g Biafra</option>
                 <option value="AF">Afghanistan</option>
