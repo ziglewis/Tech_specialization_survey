@@ -1,14 +1,20 @@
 * { 
-  /* font-size: large; */
-  
   text-shadow: 0px 0px 1px black;
+  /* border: 2px solid salmon; */
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{ 
+  width: 100%;
+  margin: 0%;
+  background-color: whitesmoke;
 }
 
 main {
 background-color: teal;
 width: 700px;
-margin: 0px auto;
-padding: 50px 2%;
+margin: 100px auto;
+padding: 20px 2%;
 border: 5px solid rgb(18, 18, 49);
 border-radius: 10px;
 }
@@ -16,7 +22,7 @@ border-radius: 10px;
 header {
 text-align: center;
 color: white;
-
+font-style: italic;
 }
 
 .Personal-details label {
@@ -25,17 +31,18 @@ padding: auto;
 justify-content: space-between;
 align-items: center;
 color: white;
-
 }
+
 h3 { color: white;}
 
 fieldset {
 border: none;
 margin: 30px auto;
+
 }
 
 #AOB {
-width:100%;
+width:97%;
 height: 100px;
 padding: 10px;
 border-radius: 10px;
@@ -45,9 +52,7 @@ border-radius: 10px;
 display: flex;
 flex-direction: column;
 align-items:center;
-
-
-gap: 40px;
+gap: 50px;
 }
 
 .Personal-details input {
@@ -58,6 +63,13 @@ border: 2px solid black;
 color: rgb(78, 74, 74);
 font-size: 1rem;
 padding: 0px 2%;
+}
+
+.audience-loved-tech-fields, .audience-gender  {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  color: white;
 }
 
 #submit-btn {
@@ -83,22 +95,26 @@ padding: 0px 2%;
 }
 
 
+
+marquee {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+
 @media (max-width: 720px) {
 
   main{
       border: 5px solid rgb(18, 18, 49);
-      width: 95%;
+      width: 98%;
   }
 
   .Personal-details label {
-    display: block;
-   
-    
+    display: block; 
     }
 
+
     .Personal-details input {
-      width: 97%;
-      
-     
+      width: 96%;
       }
 }
