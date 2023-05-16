@@ -62,7 +62,6 @@ gap: 50px;
 height: 2rem;
 width: 400px;
 border-radius: 10px;
-border: 2px solid black;
 color: rgb(78, 74, 74);
 font-size: 1rem;
 padding: 0px 2%;
@@ -73,12 +72,12 @@ padding: 0px 2%;
   background-color: white;
 }
 
-.audience-loved-tech-fields, .audience-gender  {
+.audience-loved-tech-fields label,  .audience-gender label {
   display: flex;
-  flex-direction: column;
   align-items:flex-start;
   color: white;
   text-shadow: 0px 0px 1px black;
+  box-sizing: border-box;
 }
 
 #submit-btn {
