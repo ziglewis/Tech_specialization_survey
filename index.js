@@ -15,3 +15,10 @@ window.addEventListener("pageshow", function() {
     myEntireForm.reset() 
   });
 
+
+
+    // function clearFormOnSubmit() {
+    //     myEntireForm.reset()
+    //   }
+    
+    //   setTimeout(clearFormOnSubmit,100)
